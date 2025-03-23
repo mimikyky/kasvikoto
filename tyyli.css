@@ -1,0 +1,299 @@
+body {
+    color: #44382C;
+    background-color: #F0ECE8;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h3 {
+    color: #41533F;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+h2 {
+    color: #44382C;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 3;
+}
+
+h1 {
+    color: #41533F;
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+nav {
+    color: #E5D3D0;
+    background-color: #41533F;
+    height: 80px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #E5DED7;
+    font-size: 14px;
+}
+
+main {
+    flex-grow: 1;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+header {
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+a {
+    font-size: 10px;
+    color: #E5D3D0;
+}
+
+a:hover {
+    color: #F0ECE8
+}
+
+iframe {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.korostus {
+    font-weight: 500;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.logo_ala {
+    width: 90%;
+    max-width: 300px;
+}
+
+.flex_item_pictures {
+    vertical-align: center;
+}
+
+.flex_item_leipateksti {
+    margin: 30px;
+}
+
+.kuvakkeet {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex_item_alatunniste_etusivu {
+    text-align: center;
+}
+
+
+#aukioloajat {
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+#aukioloajat li {
+    list-style-type: none;
+}
+
+#aukioloajat span {
+    width: 7em;
+    display: inline-block;
+}
+
+#tiedot li {
+    list-style-type: none;
+}
+
+#haasteet li {
+    list-style-type: square;
+    color: #44382C;
+}
+
+#kastelu li {
+    list-style-type: square;
+    color: #44382C;
+}
+
+#ruukun_vaihto li {
+    list-style-type: desimal;
+    color: #44382C;
+}
+
+@media only screen and (max-width:799px) {
+
+    .kauppa {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 60%;
+        max-width: 350px;
+    }
+
+    .henkilosto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        width: 60%;
+        max-width: 350px;
+    }
+
+    .logo {
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .flex_container_leipateksti_kaikki {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .flex_item_alatunniste {
+        text-align: center;
+    }
+
+    .flex_container_yhteystiedot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .huonekasvi_ap {
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .huonekasvi_hk {
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .huonekasvi_sp {
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #tiedot_ap li {
+        margin-left: -40px;
+    }
+
+    #tiedot_hk li {
+        margin-left: -40px;
+    }
+
+    #tiedot_sp li {
+        margin-left: -40px;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+
+    .kauppa {
+        margin-left: 90px;
+        margin-bottom: 15px;
+    }
+
+    .henkilosto {
+        margin-left: 90px;
+        margin-bottom: 15px;
+    }
+
+    .flex_item_pictures {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex_item_alatunniste {
+        margin: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .flex_container_leipateksti {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .flex_container_leipateksti_kaikki {
+        display: flex;
+        gap: 30px;
+    }
+
+    .flex_container_yhteystiedot {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        flex-direction: row;
+    }
+
+    .flex_item_yhteystiedot {
+        flex: 1;
+        justify-items: center;
+    }
+
+    .flex_container_kasvit {
+        width: 100%;
+        margin: 30px auto;
+        display: flex;
+        padding: 0 15px;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: left;
+    }
+
+    .flex_item_kasvit {
+        width: fit-content
+    }
+
+    .huonekasvi_ap {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .huonekasvi_hk {
+        float: left;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+
+    .huonekasvi_sp {
+        float: left;
+        margin-right: 20px;
+    }
+
+}
