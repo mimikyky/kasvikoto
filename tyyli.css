@@ -110,6 +110,20 @@ iframe {
     text-align: center;
 }
 
+#tiedot_ap li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#tiedot_hk li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#tiedot_sp li {
+    list-style: none;
+    margin-left: -40px;
+}
 
 #aukioloajat {
     margin-left: -40px;
@@ -201,18 +215,6 @@ iframe {
         padding-bottom: 10px;
         display: block;
         margin: 0 auto;
-    }
-
-    #tiedot_ap li {
-        margin-left: -40px;
-    }
-
-    #tiedot_hk li {
-        margin-left: -40px;
-    }
-
-    #tiedot_sp li {
-        margin-left: -40px;
     }
 
 }
